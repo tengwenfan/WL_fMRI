@@ -14,6 +14,8 @@ DICOM folder structure:
     - MPRAGE
     - WLfMRI_1
     - WLfMRI_2
+    - WLfMRI_3
+    - WLfMRI_4
     - WM_1
     - WM_2
    - session_2
@@ -22,6 +24,7 @@ DICOM folder structure:
      - Resting
      - Langloc
      - Cogflex
-
+### Rename raw data folder with rename_ser.py
 ### Creating BIDS with Heudiconv
+Run script: /Users/tengwenfan/Desktop/bids_test/construct_bids_tf.sh
 
