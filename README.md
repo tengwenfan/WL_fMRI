@@ -27,4 +27,6 @@ DICOM folder structure:
 ### Rename raw data folder with rename_ser.py
 ### Creating BIDS with Heudiconv
 Run script: /Users/tengwenfan/Desktop/bids_test/construct_bids_tf.sh
+### Preprocess with fmriprep
+Run script: fmriprep-docker /Users/lendlab/Desktop/WL_fMRI/data/BIDS /Users/lendlab/Desktop/WL_fMRI/data/derivatives/fmriprep participant --participant-label sub-WLfMRI029 --fs-license-file /Users/lendlab/Desktop/WL_fMRI/license.txt --bids-filter-file /Users/lendlab/Desktop/WL_fMRI/anat_filter_JMS.py
 
